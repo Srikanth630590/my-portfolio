@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> PORTFOLIO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+        <nav class="topmenubar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#About-Us">ABOUT US</a>
+            <a href="#Project">Projects</a>
+            <a href="#Skills-section">SKILLS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="Resume (7).pdf" download class="download-btn">Download CV</a>
+        </nav>
+    </header>
+    <div class="orange-ring"></div>
+    <div class="background-elements">
+        <div class="circle small"></div>
+        <div class="circle medium"></div>
+        <div class="ring"></div>
+        <div class="cross"></div>
+        <div class="dot-grid"></div>
+    </div>
+    <div class="mycontainer">
+        <div class="myinfo">
+            <div class="myimage">
+                <div class="circle-bg"></div>
+                <img src="srikanth (1).png" width="1000" height="1000">
+            </div>
+        </div>
+        <div class="leftcontent">
+            <h1 class="srikanth"> Hi, Its <Span class="highlight">SRIKANTH</Span></h1>
+            <h2 class="skills"> I'm a&nbsp;<Span class="jobskills"> UI/UX DESIGNER | GRAPHIC DESIGNER | HTML,CSS </Span>
+            </h2>
+            <h3 class="typing-text"> <span></span></h3>
+            <div class="icons">
+                <img src="figma.png" width="50px">
+                <img src="photoshop.png" width="50px">
+                <img src="html (1).png" width="50px">
+                <img src="css-3.png" width="50px">
+            </div>
+        </div>
+    </div>
+    <section id="About-Us" class="about-section">
+        <div class="container">
+            <a href="#" class="ABOUT-US">About Us</a>
+        </div>
+        <div>
+            <p class="About"></p>
+            <p>
+                Hi, I’m Srikanth. I completed my B.Tech and I have completed my internship in UI/UX Design, where I
+                gained hands-on experience in creating modern, user-centered interfaces. Along with my UI/UX skills, I’m
+                also skilled in Graphic Design, bringing strong visual aesthetics to my work.
+
+                I enjoy designing clean, engaging, and responsive websites using HTML and CSS, turning ideas into
+                beautiful, functional digital experiences. My goal is to combine design and technology to create
+                meaningful products that provide both usability and visual impact.
+            </p>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Bachelor of Technology in Mechanical</h3>
+                <h4>Chaitanya Engineering College</h4>
+                <p class="date">2021 – 2024</p>
+            </div>
+            <div class="education-item">
+                <h3>Polytechnic</h3>
+                <h4>Viskha Institute Of Engineering and Technology</h4>
+                <p class="date">2018 – 2021</p>
+            </div>
+            <div class="education-item">
+                <h3>10<sup>th</sup> SSC</h3>
+                <h4>Ravindra Bharathi School</h4>
+                <p class="date">2017 – 2018</p>
+            </div>
+        </div>
+    </section>
+    <section id="certifications" class="certifications">
+  <h2>Certifications</h2>
+  <div class="certifications-container">
+
+    <div class="certification-item">
+      <h3>UI/UX Design Certification</h3>
+      <h4>Purple Lane</h4>
+      <p class="date">2024</p>
+      <p class="desc">
+        Completed a professional certification in <strong>UI/UX Design</strong>, 
+        covering user research, wireframing, and prototyping using Figma.
+      </p>
+      <a href="UI&UX Certificate.jpg" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <div class="certification-item">
+      <h3>Front-End Web Development</h3>
+      <h4>Great Learning</h4>
+      <p class="date">2023</p>
+      <p class="desc">
+        Gained hands-on experience in building responsive websites using 
+        <strong>HTML, CSS, and JavaScript</strong>.
+      </p>
+      <a href="Frontend_Certificate.pdf" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+    <div id="Project" class="about-section">
+        <div class="container">
+            <a href="#" class="ABOUT-US">Projects</a>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <a href="https://www.figma.com/design/qFexsXOeYKpgdntKJnebOp/Untitled?node-id=0-1&t=qusClkNnRPtdlhLy-1"
+                    target="_blank" class="work-box"></a>
+                <img src="mobile  application.png" alt="Image 1" >
+                <h3 class="Mobile Applications"> <span class="high">Mobile Applications</span></h3>
+                <p>I design clean and user-friendly mobile applications that focus on smooth navigation and
+                    great
+                    user experience. Each app layout is built with modern UI principles to make the design
+                    visually
+                    appealing and easy to use.</p>
+                     <a href="https://www.figma.com/design/qFexsXOeYKpgdntKJnebOp/Untitled?node-id=0-1&t=qusClkNnRPtdlhLy-1"
+       target="_blank" class="project-btn">View in Figma</a>
+            </div>
+            <div class="box">
+                <img src="web application.png" alt="Image 2" >
+                <h3 class="Web Applications"> <span class="high">Web Applications</span></h3>
+                <p>I design clean and professional websites that balance creativity with functionality. Each
+                    layout is structured to enhance user engagement while keeping a consistent visual
+                    identity.Responsive design ensures that a website or application looks and functions
+                    perfectly on any device.
+                </p>
+                <a href="https://www.figma.com/design/qFexsXOeYKpgdntKJnebOp/Untitled?node-id=0-1&t=qusClkNnRPtdlhLy-1"
+       target="_blank" class="project-btn">View in Figma</a>
+            </div>
+            <div class="box">
+                <img src="responsive.png" alt="Image 2">
+                <h3 class="Responsive Applications"> <span class="high">Responsive Applications</span></h3>
+                <p>I build flexible and adaptive layouts that look perfect on desktops, tablets, and mobile
+                    devices. My designs ensure that every user enjoys a consistent experience, no matter the
+                    screen size.</p>
+                    <a href="https://www.figma.com/design/qFexsXOeYKpgdntKJnebOp/Untitled?node-id=0-1&t=qusClkNnRPtdlhLy-1"
+       target="_blank" class="project-btn">View in Figma</a>
+            </div>
+            <div class="box">
+                <img src="Graphic design.png" alt="Image 2">
+                <h3 class="Graphic design"> <span class="high">Graphic design</span></h3>
+                <p>I design creative and impactful visual materials that help brands stand out. My work
+                    includes
+                    posters, banners, flyers, social media graphics, and branding assets — all crafted with
+                    a
+                    strong focus on layout, color balance, and visual storytelling..</p>
+                    <a href="https://www.figma.com/design/qFexsXOeYKpgdntKJnebOp/Untitled?node-id=0-1&t=qusClkNnRPtdlhLy-1"
+       target="_blank" class="project-btn">View in Figma</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section id="Skills-section" class="skills">
+        <div class="skill-section">
+            <a href="#" class="skills">skills</a>
+            <div class="skill">
+                <p>Figma</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+                <span>95%</span>
+            </div>
+            <div class="skill">
+                <p>Photoshop</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill">
+                <p>Illustrator</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+                <span>80%</span>
+            </div>
+            <div class="skill">
+                <p>Canva</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill">
+                <p>Html</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width:80%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+            <div class="skill">
+                <p>Css</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+                <span>90%</span>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Hire Me</h2>
+        <p>Excited to join a team and bring ideas to life.</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> bongulusrikanth7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 63059 02746</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bongulu-srikanth-10315431b/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/srikanthbongulu7" target="_blank">
+                        <i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section> <div class="background-shapes">
+        <div class="circle small"></div>
+        <div class="circle medium"></div>
+        <div class="circle large"></div>
+        <div class="star one">★</div>
+        <div class="star two">★</div>
+        <div class="star three">★</div>
+    </div>
+    <footer class="footer">
+        <p>© 2025 Srikanth | Designed with ❤️ using HTML, CSS, and Figma</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
